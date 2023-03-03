@@ -1,0 +1,10 @@
+.register-form {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.forgot-password {
+    margin-top: 20px;
+}

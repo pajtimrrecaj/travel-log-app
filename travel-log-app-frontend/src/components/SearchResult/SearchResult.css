@@ -1,0 +1,28 @@
+.result-container {
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+    width: 45%;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.date-posted {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 13px;
+}
+
+
+.date-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}

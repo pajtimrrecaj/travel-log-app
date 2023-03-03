@@ -1,0 +1,55 @@
+.title {
+    display: inline;
+}
+
+.dropdown-toggle::after {
+    display: none
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.date-posted {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 13px;
+}
+
+
+.dropdown-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.list-item-container {
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+    width: 700px;
+}
+
+
+#dropdown-basic-button {
+    background-color: transparent;
+    border: none;
+}
+
+#dropdown-basic-button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+#dropdown-basic-button:focus {
+    background-color: rgb(212, 212, 212);
+}
+
+.three-dots {
+    color: rgb(83, 83, 83)
+}
